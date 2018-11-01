@@ -1796,11 +1796,11 @@ mkfs -t xfs /dev/mapper/vg0-datastore
 
 Is a process that has completed execution (via the **exit** system call) but still has an entry in the process table: it is a process in the "Terminated state".
 
-Processes marked **<defunct>** are dead processes (so-called "zombies") that remain because their parent has not destroyed them properly. These processes will be destroyed by init if the parent process exits.
+Processes marked **defunct** are dead processes (so-called "zombies") that remain because their parent has not destroyed them properly. These processes will be destroyed by init if the parent process exits.
 
 Useful resources:
 
-- [What is a <defunct> process, and why doesn't it get killed?](https://askubuntu.com/questions/201303/what-is-a-defunct-process-and-why-doesnt-it-get-killed)
+- [What is a defunct process, and why doesn't it get killed?](https://askubuntu.com/questions/201303/what-is-a-defunct-process-and-why-doesnt-it-get-killed)
 
 </details>
 
